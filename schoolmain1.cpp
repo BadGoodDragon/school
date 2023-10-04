@@ -9,5 +9,9 @@ int main() {
         }
         std::cin >> n;
     }
+    if (res == -1) {
+        std::cout << "NO" << std::endl;
+        return 0;
+    }
     std::cout << res << std::endl;
 }
